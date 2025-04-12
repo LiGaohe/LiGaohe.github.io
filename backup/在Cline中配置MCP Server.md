@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>观察日记</title><link>https://LiGaohe.github.io</link><description>先天问题圣体，记录各种问题</description><copyright>观察日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://LiGaohe.github.io</link></image><lastBuildDate>Sat, 12 Apr 2025 15:25:48 +0000</lastBuildDate><managingEditor>观察日记</managingEditor><ttl>60</ttl><webMaster>观察日记</webMaster><item><title>在Cline中配置MCP Server</title><link>https://LiGaohe.github.io/post/zai-Cline-zhong-pei-zhi-MCP%20Server.html</link><description># 安装Cline并添加MCP server
+# 安装Cline并添加MCP server
 ## vs code安装Cline
 拓展中下载Cline
 ## 配置Cline
@@ -13,7 +12,7 @@
 
 ①npm config set prefix “你的路径\node_global” （复制你刚刚创建的“node_global”文件夹路径），例如：
 ```bash
-npm config set prefix 'D:\Program Files\nodejs\node_global'
+npm config set prefix "D:\Program Files\nodejs\node_global"
 ```
 ②npm config set cache “你的路径\node_cache” （复制你刚刚创建的“node_cache”文件夹路径）
 
@@ -54,12 +53,24 @@ npm config set registry https://registry.npmjs.org
 
 ### 获取OpenRouter API Key
 前往OpenRouter官网：URL_ADDRESS前往OpenRouter官网：https://openrouter.ai/，
-注册账号并登录，进入控制台，点击API Keys，点击Create New Key，创建一个新的API Key，复制API Key。</description><guid isPermaLink="true">https://LiGaohe.github.io/post/zai-Cline-zhong-pei-zhi-MCP%20Server.html</guid><pubDate>Sat, 12 Apr 2025 15:21:03 +0000</pubDate></item><item><title>测试测试</title><link>https://LiGaohe.github.io/post/ce-shi-ce-shi.html</link><description># 这是一级标题
-## 二级
-### 三级
-`芝士代码`
-```C++
-vector&lt;vector&lt;int&gt;&gt; res;
-vector&lt;int&gt; path;
+注册账号并登录，进入控制台，点击API Keys，点击Create New Key，创建一个新的API Key，复制API Key。
+### 安装uv
+前往github下载uv：https://github.com/astral-sh/uv/releases
+下载二进制文件，解压，按照提示安装即可；输入命令`uv --version`检查是否安装成功，不成功可重启电脑。
+### 安装MCP server
+到`MCP Server`的`installed`界面，复制需要的MCP Server的“提示词”配置，例如：
+```json
+{
+  "mcpServers": {
+    "fetch": {
+      "isActive": true,
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ]
+    }
+  }
+  
+}
 ```
-。</description><guid isPermaLink="true">https://LiGaohe.github.io/post/ce-shi-ce-shi.html</guid><pubDate>Sat, 12 Apr 2025 14:45:59 +0000</pubDate></item></channel></rss>
+保存后尝试运行，可以运行。
