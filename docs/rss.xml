@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>观察日记</title><link>https://LiGaohe.github.io</link><description>先天问题圣体，记录各种问题</description><copyright>观察日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://LiGaohe.github.io</link></image><lastBuildDate>Sat, 12 Apr 2025 15:25:48 +0000</lastBuildDate><managingEditor>观察日记</managingEditor><ttl>60</ttl><webMaster>观察日记</webMaster><item><title>在Cline中配置MCP Server</title><link>https://LiGaohe.github.io/post/zai-Cline-zhong-pei-zhi-MCP%20Server.html</link><description># 安装Cline并添加MCP server
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>观察日记</title><link>https://LiGaohe.github.io</link><description>先天问题圣体，记录各种问题</description><copyright>观察日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://LiGaohe.github.io</link></image><lastBuildDate>Mon, 14 Apr 2025 09:41:17 +0000</lastBuildDate><managingEditor>观察日记</managingEditor><ttl>60</ttl><webMaster>观察日记</webMaster><item><title>图床</title><link>https://LiGaohe.github.io/post/tu-chuang.html</link><description>![报错1](https://github.com/user-attachments/assets/264e6e88-673b-4344-8708-48e4f9dbf035)
+
+![报错3](https://github.com/user-attachments/assets/32a42e69-14bc-4476-afde-d2d21e077b4c)
+
+![报错2](https://github.com/user-attachments/assets/f40fb4d5-d76d-423a-b484-e9574282c587)
+
+![成功1](https://github.com/user-attachments/assets/12aca6cf-0cd0-4deb-a1d1-82b6a222089a)
+。</description><guid isPermaLink="true">https://LiGaohe.github.io/post/tu-chuang.html</guid><pubDate>Mon, 14 Apr 2025 09:40:46 +0000</pubDate></item><item><title>在Cline中配置MCP Server</title><link>https://LiGaohe.github.io/post/zai-Cline-zhong-pei-zhi-MCP%20Server.html</link><description># 安装Cline并添加MCP server
 ## vs code安装Cline
 拓展中下载Cline
 ## 配置Cline
