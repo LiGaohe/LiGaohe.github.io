@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>观察日记</title><link>https://LiGaohe.github.io</link><description>先天问题圣体，记录各种问题</description><copyright>观察日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://LiGaohe.github.io</link></image><lastBuildDate>Mon, 14 Apr 2025 09:41:17 +0000</lastBuildDate><managingEditor>观察日记</managingEditor><ttl>60</ttl><webMaster>观察日记</webMaster><item><title>图床</title><link>https://LiGaohe.github.io/post/tu-chuang.html</link><description>![报错1](https://github.com/user-attachments/assets/264e6e88-673b-4344-8708-48e4f9dbf035)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>观察日记</title><link>https://LiGaohe.github.io</link><description>先天问题圣体，记录各种问题</description><copyright>观察日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://LiGaohe.github.io</link></image><lastBuildDate>Sat, 19 Apr 2025 15:53:25 +0000</lastBuildDate><managingEditor>观察日记</managingEditor><ttl>60</ttl><webMaster>观察日记</webMaster><item><title>在Win11系统上安装32位win10虚拟机</title><link>https://LiGaohe.github.io/post/zai-Win11-xi-tong-shang-an-zhuang-32-wei-win10-xu-ni-ji.html</link><description># VMware Workstation Pro 17 与 win 11（主机）的不兼容问题
+尝试许多方法，然而启动win10虚拟机后要么蓝屏，要么提示无法找到操作系统，于是放弃
+
+---
+# 解决方法
+使用virtualbox虚拟机，关闭hyper-v(主机)并打开虚拟平台、监控虚拟平台，同时:
+
+1.检查并修复 VirtualBox 驱动
+
+（1）以管理员身份运行命令提示符
+```cmd
+
+sc query vboxsup
+
+```
+如果显示 STOPPED 或错误，继续以下步骤。</description><guid isPermaLink="true">https://LiGaohe.github.io/post/zai-Win11-xi-tong-shang-an-zhuang-32-wei-win10-xu-ni-ji.html</guid><pubDate>Sat, 19 Apr 2025 15:52:58 +0000</pubDate></item><item><title>图床</title><link>https://LiGaohe.github.io/post/tu-chuang.html</link><description>![报错1](https://github.com/user-attachments/assets/264e6e88-673b-4344-8708-48e4f9dbf035)
 
 ![报错3](https://github.com/user-attachments/assets/32a42e69-14bc-4476-afde-d2d21e077b4c)
 
